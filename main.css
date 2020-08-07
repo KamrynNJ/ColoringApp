@@ -1,0 +1,84 @@
+body{
+  background-color: lightblue;
+}
+.entire{
+}
+
+#propertiesDiv{
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#colorPicker{
+  font-size: 25px;
+  text-align: center;
+}
+
+#slidecontainer{
+  font-size: 30px;
+  font-family: 'Crafty Girls', cursive;
+  display: flex;
+}
+
+#colorSpace{
+  padding-top: 25px;
+  font-size: 30px;
+  font-family: 'Crafty Girls', cursive;
+}
+
+#clear{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  padding: 10px;
+  font-size: 30px;
+  font-family: 'Crafty Girls', cursive;
+}
+
+#canvasDiv{
+  border-radius: 25px;
+}
+
+#DrawingSpace{
+  border-radius: 25px;
+  background-color: white;
+}
+
+#title{
+  text-align: center;
+  font-size: 125px;
+  font-family: 'Crafty Girls', cursive;
+}
+
+#IntroDraw{
+  background-color: black;
+  border-radius: 25px;
+}
+
+#IntroDrawDiv{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Crafty Girls', cursive;
+
+}
+
+#startButton{
+  display: flex;
+  justify-content: center;
+  font-family: 'Crafty Girls', cursive;
+  height: 100px;
+  width: 150px;
+  font-size: 50px;
+  border-radius: 25%;
+  margin: auto;
+}
+
+#introEntire{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Crafty Girls', cursive;
+}

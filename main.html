@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    <title>Doodle</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Crafty+Girls&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="entire">
+    <div id="canvasDiv"><canvas id="DrawingSpace" style="border:10px solid black" height="750px" width="1650px"></canvas></div>
+      <div id="propertiesDiv">
+        <button id="clear">Clear</button>
+
+           <div id="slidecontainer">
+              <p>Line Width : <input type="range" min="1" max="100" value="20" class="slider" id="myRange" onchange="changeButtonFunction()"></p>
+               <p> Value: <span id="outputValue"></p>
+            </div>
+            <div id="colorSpace">
+              Color: <input class="jscolor" value="ab2567" id="colorPicker" onchange="changeColor()">
+            </div>
+        </div>
+        </div>
+    <script src="main.js"></script>
+    <script src="jscolor.js"></script>
+  </body>
+</html>
